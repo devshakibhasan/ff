@@ -15,10 +15,6 @@ const Cart = (props) => {
             setCart((names) => names.filter((_, i) => i !== names.length - 1))
         }>   <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon></button>
         </div>
-        {/* <button onClick={() => handleAddToCart(product)} className='btn-cart'>
-            <p className='btn-text'>Add to Cart</p>
-            <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-        </button> */}
     </div>
     );
 };

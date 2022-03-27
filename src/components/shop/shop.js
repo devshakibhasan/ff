@@ -44,9 +44,6 @@ const handleRemoveToCart = (product) => {
                         setCart= {setCart}
                         ></Cart>)}</p>
 
-            {/* <button onClick={() => setCart((names) => names.filter((_, i,j) => i == Math.ceil(Math.random() * (names.length))))} className='chooseOne'>Choose 1 for me</button> */}
-{/* 
-            <button onClick={() => setCart((names) =>  names.filter((_, i) => i == setCart[Math.floor(Math.random() * (names.length))]))} className='chooseOne'>Choose 1 for me</button> */}
 
             <button onClick={() => setCart((names) => names.filter((_, i,j) => i == Math.ceil(Math.random() * j == ((names.length)-(names.length-1)))))} className='chooseOne'>Choose 1 for me</button>
             <button onClick={() => setCart((names) => names.filter((_, i) => i == names.length))}>Choose again</button>
